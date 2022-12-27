@@ -1,0 +1,42 @@
+/* RESET PADRÃO DA MINHA PAGINA: 
+
+1° TIRANDO TODAS AS MARGENS PADRÕES
+2° TIRANDO TODOS OS PADDING PADRÕES
+3° COLOCANDO BORDER-BOX PARA QUE O MEU NAVEGADOR NÃO CALCULE AS DIMENSÕES DE UM ELEMENTO SOMANDO BORDAS E MARGINS COM ALTURA E LARGURA
+4° TIRANDO TODAS AS CONFIGURAÇÕES DAS <li>
+5° TIRANDO A DECORAÇÕES DO <a>
+6° DEFININDO UMA FONTE PADRÃO PARA A MINHA PAGINA
+7° COLOCANDO UMA FAMILIA DE FONTES NA MINHA PAGINA, ESCOLHI USAR A FONTE "INTER"*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: "Inter", sans-serif;
+}
+
+/* DEFININDO UM TAMANHO PARA AS MINHAS IMAGENS */
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+/* ARRUMANDO O MEU HTML PARA QUE FIQUE PADRÃO
+
+
+1° DEIXANDO TODAS AS FONTES COM 62.5% DO SEU TAMANHO ATUAL 
+2° SCROLL-BEHAVIOR, QUANDO APERTO EM UM LINK MO MENU, MINHA ANCORA LEVARÁ ATÉ O LOCAL ESCOLHIDO COM UMA ANIMAÇÃO
+3° DEFININDO O TEMPO DE TRANSITION*/
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    transition: all 0.3s;
+}
+
+/* AO PASSAR O MOUSE EM ALGUM BOTÃO, APAREÇA O POINTER 👆 */
+button{
+    cursor: pointer;
+}
