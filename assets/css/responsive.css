@@ -162,3 +162,65 @@
         max-width: 100%;
     }
 }
+
+@media (max-width: 488px){
+    html{
+        font-size: 45%;
+    }
+
+    .se-hero .text p{
+        margin-bottom: 3rem;
+        font-size: 80%;
+        text-align: center;
+    }
+
+    .se-hero .container .img-hero img{
+        margin-top: 10rem;
+    }
+
+    .se-hero .img-hero{
+        height: 30rem;
+    }
+    
+    .se-hero .btn{
+        font-size: 80%;
+        width: 250px;
+        text-align: center;
+    }
+    h1{
+        font-size: 3.2rem;
+    }
+
+
+    .footer{
+        padding: 4rem 0;
+    }
+
+    .footer main{
+        padding-bottom: 4rem;
+        width: 100%;
+    }
+    
+    .footer main nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer main nav  .item{
+        margin-bottom: 4rem;
+    }
+    
+    .footer main nav  .item:last-child{
+        margin-bottom: 0;
+    }
+
+    .footer main nav .item ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copy .container{
+        font-size: 90%;
+    }
+}
