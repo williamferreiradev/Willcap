@@ -27,3 +27,111 @@
         max-width: 63rem;
     }
 }
+
+
+@media (max-width: 991px){
+    .hamburguer{
+        display: block;
+    }
+    .hamburguer.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguer.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburguer.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        background-color: #05050579;
+        backdrop-filter: blur(10px);
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        flex-direction: column;
+        border-radius: 0 0 20px 20px;
+    }
+    .nav-item{
+        margin: 16px 0 ;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+    .nav-menu.close{
+        visibility: hidden;
+    }
+
+
+    .se-hero .container{
+        flex-direction: column;
+    }
+
+    .se-hero .img-hero{
+        max-width: 46%;
+        margin-top: 4rem;
+        justify-content: center;
+    }
+
+    .se-hero .text{
+        max-width: 100%;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .se-hero .text .hero{
+        display: flex;
+        gap: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .se-hero .text .hero li{
+        font-size: 1.4rem;
+    }
+
+    .se-hero .text .btn{
+        margin-bottom: 5.5rem;
+    }
+    .se-hero .text h1, .se-hero .text p{
+        text-align: center;
+    }
+
+    .se-benefits .all-cards{
+        flex-direction: column;
+    }
+
+    .se-benefits .all-cards .card{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 3rem 0rem;
+        margin-bottom: 2rem;
+    }
+
+
+
+    .se-produts .all-cards{
+        flex-direction: column;
+    }
+
+    .se-produts .all-cards .card{
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 20rem;
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+        padding: 3rem 0rem;
+        align-items: center;
+    }
+
+    .footer main nav{
+        max-width: 55rem;
+    }
+}
