@@ -1,0 +1,29 @@
+/* TODAS ESSAS MEDIA TEM O PROPOSITO DE DEIXAR MINHA PAGINA RESPONSIVA(ADEQUANDO ELA A QUALQUER TIPO DE TELAS) */
+
+@media (max-width: 1200px){
+     .se-benefits .text{
+        width: 49%;
+     }
+
+     .se-benefits .all-cards{
+        width: 100%;
+    }
+     .se-benefits .all-cards .card{
+        width: 32%;
+    }
+
+    .se-produts .all-cards{
+        width: 100%;
+    }
+     .se-produts .all-cards .card{
+        width: 32%;
+    }
+
+    .all-cards .card .info p{
+        font-size: 90%;
+    }
+
+    .footer main nav{
+        max-width: 63rem;
+    }
+}
