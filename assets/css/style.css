@@ -1,0 +1,70 @@
+/* LINK DA MINHA FONTE (COLOCADA NO RESET) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;600&display=swap');
+
+
+/* HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: var(---black);
+    z-index: 1111;
+    height: 10rem;
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: 0.5s ease;
+}
+
+.nav-link:hover {
+    color: #0088d2
+}
+
+.hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
