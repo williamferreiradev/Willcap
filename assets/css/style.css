@@ -68,3 +68,445 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
+
+
+
+
+
+
+/*FINAL HEADER */
+
+
+.se-hero {
+    background-color: var(---primary);
+    padding-top: 25rem;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.se-hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.se-hero .container .text {
+    width: 100%;
+    max-width: 55.6rem;
+    margin-top: -12rem;
+}
+
+.se-hero .container .text p {
+    color: var(---text);
+    font-size: 2.1rem;
+    margin-top: 3rem;
+}
+
+.se-hero .container .text .hero {
+    color: var(---text);
+    font-size: 2.1rem;
+    margin-top: 5rem;
+}
+
+.se-hero .container .text .hero li {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 5px solid var(---btns);
+    max-width: 22rem;
+}
+
+.se-hero .container .text .btn {
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.se-hero .container .img-hero {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -6rem;
+}
+
+.se-hero .container .img-hero img {
+    width: 48.7rem;
+
+}
+
+
+/* BENEFICIOS */
+
+
+.se-benefits {
+    background-color: var(---primary);
+    padding-top: 15rem;
+    width: 100%;
+    height: 100%;
+}
+
+.se-benefits .container .text {
+    width: 100%;
+    max-width: 68.1rem;
+}
+
+.se-benefits .container .text h5 {
+    color: var(---btns);
+    font-weight: 600;
+}
+
+.se-benefits .container .text h2 {
+    margin-top: 2rem;
+}
+
+
+.se-benefits .all-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+}
+
+
+.se-benefits .all-cards .card {
+    width: 100%;
+    max-width: 38.4rem;
+    height: 44rem;
+    background-color: var(---card);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.4rem;
+    border: none;
+    box-shadow: 10px 10px 10px 1px var(---btns);
+    transition: 0.7s;
+}
+
+.se-benefits .all-cards .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 1px 1px 1px var(---btns);
+}
+
+.all-cards .icon img {
+    width: 10.5rem;
+    max-width: 100%;
+}
+
+.all-cards .info {
+    margin-top: 4rem;
+    max-width: 28rem;
+}
+
+.all-cards .info h3 {
+    text-align: center;
+    color: var(---black);
+    font-weight: 600;
+}
+
+
+.all-cards .info p {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(---paragrafy);
+    line-height: 150%;
+}
+
+.se-benefits .btn-benefits {
+    margin-top: 7rem;
+    padding-bottom: 5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* SECTION DE OUTROS PRODUTOS */
+
+
+
+.se-produts {
+    background-color: var(---primary);
+    padding-top: 9.1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.se-produts .container .text {
+    width: 100%;
+    max-width: 68.1rem;
+}
+
+.se-produts .container .text h5 {
+    color: var(---btns);
+    font-weight: 600;
+}
+
+.se-produts .container .text h2 {
+    margin-top: 2rem;
+}
+
+.se-produts .all-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12.8rem;
+}
+
+.se-produts .all-cards .card {
+    width: 100%;
+    max-width: 38.4rem;
+    height: 44rem;
+    background-color: var(---card);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.4rem;
+    border: none;
+    box-shadow: 10px 10px 10px 1px var(---btns);
+    transition: 0.7s;
+}
+
+.se-produts .all-cards .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 1px 1px 1px var(---btns);
+}
+
+.se-produts .all-cards .icon img {
+    width: 30.5rem;
+    margin-top: -20rem;
+    max-width: 100%;
+}
+
+.all-cards .info {
+    margin-top: 4rem;
+    max-width: 28rem;
+}
+
+.all-cards .info h3 {
+    text-align: center;
+    color: var(---black);
+    font-weight: 600;
+}
+
+.all-cards .info p {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(---paragrafy);
+    line-height: 150%;
+}
+
+.se-produts .btn-benefits {
+    margin-top: 7rem;
+    padding-bottom: 5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: var(---primary);
+    color: var(---text);
+}
+
+.footer main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 7.2rem;
+}
+
+.footer main .area-left {
+    max-width: 28.1rem;
+}
+
+.footer main .area-left .logo {
+    display: inline-block;
+    color: var(---text);
+    font-weight: 600;
+}
+
+.footer main .area-left p {
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: var(---text);
+    margin-top: 3.5rem;
+}
+
+.footer main nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 77.7rem;
+}
+
+.footer main nav .item h6 {
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -1px;
+    color: var(---text);
+    margin-bottom: 2.4rem;
+}
+
+.footer main nav .item ul li {
+    margin-bottom: 3.2rem;
+    transition: 0.3s;
+}
+
+.footer main nav .item ul li:hover {
+    padding-left: 1rem;
+}
+
+.footer main nav .item ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer main nav ul li a {
+    font-size: 1.4rem;
+    line-height: 105%;
+    color: var(---card);
+    transition: 0.3s;
+}
+
+.footer main nav .item:last-child ul li a {
+    display: flex;
+    align-items: center;
+}
+
+.footer main nav .item ul li a:hover {
+    color: var(---btns);
+}
+
+.footer main nav .item:last-child ul li a span {
+    margin-left: 0.8rem;
+}
+
+
+.copy {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2rem;
+    background-color: var(---black);
+    border-top: 1px solid var(---paragrafy);
+    color: var(---text);
+}
+
+.copy a {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: var(---text);
+    transition: 0.3s;
+}
+
+.copy a:hover {
+    color: var(---btns);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(---btns);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(---menu-mobile-hover);
+}
+
+
+
+
+
+
+#dark-mode-btn {
+    position: fixed;
+    top: 90%;
+    right: 7rem;
+    border-radius: 5%;
+    border: none;
+    color: #000000;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+#dark-mode-btn:hover {
+    background-color: #dddddd;
+}
+
+.dark-mode #dark-mode-btn{
+    background-color: #363636;
+    color: #fff;
+}
+.dark-mode{
+    background-color: #fff;
+    color: black;
+}
+
+.dark-mode .se-hero,
+.dark-mode .se-benefits,
+.dark-mode .se-produts,
+.dark-mode .footer,
+.dark-mode .copy,
+.dark-mode header {
+    background-color: #ffffff;
+}
+
+.dark-mode a,
+.dark-mode h1,
+.dark-mode li,
+.dark-mode ul,
+.dark-mode h2 {
+    color: black;
+}
+
+.dark-mode .se-hero .text p,
+.dark-mode .footer .area-left p,
+.dark-mode .footer .area-left .logo{
+    color: #000000;
+}
+
+.dark-mode .footer main nav ul li a, .dark-mode .footer main nav .item h6  {
+    color: #000000;
+}
+.dark-mode .footer main nav ul li a:hover{
+    color: #686868;
+}
+.dark-mode .bar{
+    
+    background-color: black;
+}
+.dark-mode .copy{
+    color: #000000;
+}
+
+.dark-mode .btn{
+    color: #fff;
+}
+
+.dark-mode .btn:hover{
+    background-color: var(---btns-dark);
+}
+
+.dark-mode .footer .item img{
+    filter: contrast(1%);
+}
